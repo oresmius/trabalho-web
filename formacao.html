@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Formação</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px 0;
+            border-bottom: 2px solid #ffd700;
+        }
+
+        header img {
+            max-width: 600px;
+        }
+
+        .sobre {
+        width: 50%; /* Limita a largura a % do tamanho da tela */
+        margin: 0 auto; /* Centraliza o texto horizontalmente */
+        }
+        
+        .sobre p {
+            text-align: justify; /* Justifica o texto */
+            text-indent: 20px; /* Recuo no início dos parágrafos */
+            line-height: 1.6; /* Espaçamento entre as linhas*/
+        }
+
+        .imagem-centralizada {
+            display: block; 
+            margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior */
+            max-width: 10%; /* Ajusta o tamanho da imagem*/
+            border-radius: 8px; /* Bordas arredondadas */
+        }
+
+        .formacao {
+            width: 60%; /* Limita a largura da área */
+            margin: 0 auto; /* Centraliza */
+            text-align: justify; /* Justifica o texto */
+        }
+
+        .formacao ul {
+            list-style-type: square; /* Ícones */
+            padding-left: 20px; /* Espaço antes da lista */
+        }
+
+        .formacao li {
+            margin-bottom: 20px; /* Espaçamento entre os itens */
+            line-height: 1.0; /* Espaçamento entre linhas */
+        }
+
+        nav {
+            text-align: center;
+            margin: 0; /* Remove margens extras */
+            padding: 10px 0; /* Espaçamento interno */
+            background-color: #ffffff; 
+        }
+
+        nav a {
+            text-decoration: none; 
+            color: #007BFF; /* Cor padrão do texto */
+            padding: 10px 20px; /* Espaçamento interno para criar o "tamanho" do botão */
+            border: 2px solid transparent; /* Borda inicial invisível */
+            display: inline-block; /* Necesário para o espaçamento e a moldura */
+            transition: all 0.3s ease; /*transição */
+        }
+
+        nav a:hover {
+            color: #ffffff; 
+            background-color: #ffd700; 
+            border: 2px solid #ffd700; 
+            border-radius: 5px; 
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #ffffff;
+            padding: 20px 0;
+            border-top: 2px solid #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Uninter.jpg" alt="Cabeçalho UNINTER">
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>    
+    </header>
+
+    <div class="formacao">
+        <h3>Formação:</h3>
+        <ul>
+            <li>
+                <strong>2024 – 2026:</strong> Tecnólogo em Ciência de Dados - <em>UNINTER (em andamento)</em>
+            </li>
+            <li>
+                <strong>2013 – 2019:</strong> Bacharel em Ciências Contábeis - <em>Universidade Veiga de Almeida, RJ</em>
+            </li>
+            <li>
+                <strong>2012 – 2013:</strong> Técnico em Administração - <em>SENAC, RJ</em>
+            </li>
+            <li>
+                <strong>1999 – Incompleto:</strong> Bacharel em Ciências Sociais - <em>Universidade Federal Fluminense</em>
+            </li>
+            <li>
+                <strong>1995 – 1997:</strong> Ensino Médio - <em>Colégio MV1 Anderson, RJ</em>
+            </li>
+        </ul>
+        <img src="form.png" alt="Formação" class="imagem-centralizada">
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Fábio Almeida e Sousa | UNINTER</p>
+    </footer>
+</body>
+</html>
